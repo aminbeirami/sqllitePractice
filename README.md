@@ -1,6 +1,7 @@
 # Sqlite Practice with Python
 this project reads two pile files, u.item and u.data, clean their records and store them in a sqlite database and at the end
 run a query between the stored data.
+this project prints top movies (most rated) with high rankings.
 
 # u.item
 this file contains 100,000 records about the ratings (form 1 star to 5 star) which the users have given to different movies
