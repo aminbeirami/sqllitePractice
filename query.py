@@ -1,9 +1,7 @@
 from collections import OrderedDict
 import sqlite3 
 con =sqlite3.connect("/MovieRating.db")
-con2 =sqlite3.connect("/MovieNames.db")
 cur = con.cursor()
-cur2 = con2.cursor()
 def initializeA():
     cur.execute("SELECT movieid,rating FROM ratings")
     for row in cur.fetchall():
